@@ -4,7 +4,8 @@
   "description": "This is mern ecommerce project",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/index.server.js"
+    "start": "serve -s build",
+    "build": "react-scripts build"
   },
   "keywords": [
     "ecommerce",
